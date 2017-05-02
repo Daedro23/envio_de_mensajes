@@ -1,0 +1,29 @@
+#imgd {
+  position: absolute;
+  top: 30px; 
+  right: 367px;
+  float:right;clear:none;margin:1em; 
+  border:0px; 
+  height:318px;
+}
+
+#imgl {
+  position: absolute;
+  top: 30px; 
+  left: 381px;
+  float:left;clear:none;margin:1em; 
+  border: 0px; 
+  height:318px;
+}
+
+#enviar {
+ 	 position: absolute;
+	  top: 393px; 
+	  left: 450px;
+}
+
+#borrar {
+ 	 position: absolute;
+	  top: 392px; 
+	  right: 450px;
+}
