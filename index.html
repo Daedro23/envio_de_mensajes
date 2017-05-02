@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<script type="text/javascript" src="js/contador.js"></script>
+</head>
+<body>
+<br>
+	<form id="formularioCantidad" action="index.html" onsubmit="return validacion()" method="post">
+		<div align="center" class="container">
+		
+		<img src="img/arriba.png"> <br><br>
+		<img id="imgd" src="img/derecha.jpg">
+		<img id="imgl" src="img/izquierda.jpg"> 
+
+        <textarea input type="text" name="numpiso" onkeypress="return valida(event)" style="WIDTH: 300px; HEIGHT: 40px" id="campo" placeholder="Numero de Telefono" class="form-control" required=""></textarea>
+        <textarea id="textArea" placeholder="Escriba aqui" style="WIDTH: 300px; HEIGHT: 98px" class="form-control" onKeyDown="contar()" onKeyUp="contar()"></textarea><br>
+
+        <label>Caracteres restantes:</label> 
+        <input disabled size="3" value="160" id="contador"><br><br> 
+
+        <div style="line-height: 70px">
+        <button id="enviar" class="btn btn-sm btn-primary" type="submit" onclick="alert('Mensaje Enviado')">Enviar</button>
+		<button id="borrar" class="btn btn-sm btn-primary" type="reset">Borrar</button><br>
+		</div>
+		<img src="img/abajo.png"> 
+		</div>
+	</form>
+</body>
+</html>
